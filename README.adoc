@@ -71,8 +71,16 @@ Finally, install link:http://marketplace.eclipse.org/content/buildship-gradle-in
 [[Structure]]
 = Project Structure and Dependencies
 
+[[Java8]]
+== Java 8
+
+link:http://www.oracle.com/technetwork/articles/java/java8-optional-2175753.html[Tired of Null Pointer Exceptions? Consider Using Java SE 8's Optional!]
+
+link:http://blog.algaworks.com/chega-de-nullpointerexception/[PT-BR: Chega de NullPointerException! Use a classe Optional]
+
 [[Lombok]]
 == Lombok
+
 link:https://projectlombok.org/[Lombok] just makes your life easier providing annotations to increase your productivity. 
 E.g.: Generate all getters, setters, toString, hashCode and equals methods by just adding a @Data annotation. 
 Please watch de demo video, read the documentation and let's think about how much time our lives were wasted doing everything lombok provides.
