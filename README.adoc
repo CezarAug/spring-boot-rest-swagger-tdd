@@ -44,6 +44,20 @@ Build project
 gradle clean install
 ----
 
+== Importing the project into eclipse
+
+On build.gradle file, add an eclipse task:
+----
+apply plugin: 'eclipse'
+----
+
+And then, on command line/terminal:
+----
+gradle eclipse
+----
+
+Finally, install link:http://marketplace.eclipse.org/content/buildship-gradle-integration[Buildship Gradle Integration 2.0] plugin for Eclipse
+
 == Run on local environment
 
 ----
@@ -74,4 +88,3 @@ link:https://www.casadocodigo.com.br/products/livro-tdd[Book - TDD with Java (Br
 link:https://objectpartners.com/2013/09/18/the-benefits-of-using-assertthat-over-other-assert-methods-in-unit-tests/#comment-55827[Why you should use assertThat instead of other Methods in JUnit]
 
 link:http://site.mockito.org/[Mockito] - Hint: Cool developers use mockito methods through static imports
-
