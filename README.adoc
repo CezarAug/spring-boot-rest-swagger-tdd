@@ -58,14 +58,14 @@ java -jar account.jar
 = Project Structure and Dependencies
 
 [[Lombok]]
-
+== Lombok
 link:https://projectlombok.org/[Lombok] just makes your life easier providing annotations to increase your productivity. 
 E.g.: Generate all getters, setters, toString, hashCode and equals methods by just adding a @Data annotation. 
 Please watch de demo video, read the documentation and let's think about how much time our lives were wasted doing everything lombok provides.
 
 [[TDD]]
 == TDD
-**Account** was developed following **TDD** practices for both unit and integration tests.
+**Account** fowllows **TDD** practices for both unit and integration tests.
 
 Useful Links:
 
