@@ -43,6 +43,16 @@ Build project
 ----
 gradle clean install
 ----
+== Run on local environment
+
+----
+gradle bootRun
+----
+
+----
+java -jar account.jar
+----
+
 
 == Importing the project into eclipse
 
@@ -57,16 +67,6 @@ gradle eclipse
 ----
 
 Finally, install link:http://marketplace.eclipse.org/content/buildship-gradle-integration[Buildship Gradle Integration 2.0] plugin for Eclipse
-
-== Run on local environment
-
-----
-gradle bootRun
-----
-
-----
-java -jar account.jar
-----
 
 [[Structure]]
 = Project Structure and Dependencies
