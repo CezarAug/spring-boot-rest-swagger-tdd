@@ -54,3 +54,19 @@ gradle bootRun
 java -jar account.jar
 ----
 
+[[Structure]]
+= Project Structure and Dependencies
+
+[[Lombok]]
+[Lombok](https://projectlombok.org/) just makes your life easier providing annotations to increase your productivity. E.g.: Generate all getters, setters, toString, hashCode and equals methods by just adding a @Data annotation. Please watch de demo video, read the documentation and let's how much time of your life you wasted doing everything lombok provides.
+
+[[TDD]]
+== TDD
+**Account** was developed following **TDD** practices for both unit and integration tests.
+
+Useful Links:
+
+[TDD with Java (Brazillian Portuguese)](https://www.casadocodigo.com.br/products/livro-tdd)
+[Why you should use assertThat instead of other Methods in JUnit](https://objectpartners.com/2013/09/18/the-benefits-of-using-assertthat-over-other-assert-methods-in-unit-tests/#comment-55827)
+[Mockito](http://site.mockito.org/) - Hint: Cool developers use mockito methods through static imports
+
